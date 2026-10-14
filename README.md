@@ -40,33 +40,3 @@ Snapshot after 50 of 380 matches of 2026-27 (1 October 2026):
 
 Early in the season the model is overconfident: at match 50 its favourites averaged roughly 56% while winning the title 41% of the time in the backtest. Treat these as rough estimates. Dated weekly snapshots go in `predictions/`.
 
-## Repository structure
-
-```
-pl-title-prediction/
-├── pl_title.py          # data loading, features, backtest, live prediction
-├── requirements.txt     # python dependencies
-├── predictions/         # dated weekly snapshots of the live prediction
-└── README.md
-```
-
-## Usage
-
-```bash
-pip install -r requirements.txt
-python pl_title.py backtest    # match-level + title backtests (a few minutes)
-python pl_title.py live        # refresh current-season data, print title probabilities
-python pl_title.py both        # backtest, then the live prediction
-```
-
-In Google Colab or Jupyter, paste `pl_title.py` into one cell, set `COMMAND` near the top (`"backtest"`, `"live"` or `"both"`) and run the cell.
-
-`live` writes `live_title_probs.csv`. To keep a record, copy it to `predictions/live_YYYY-MM-DD.csv`.
-
-## Data and credits
-
-Match results and odds come from football-data.co.uk. Check their terms before redistributing the data files.
-
-## Author
-
-<Your name> - <course / institution>
