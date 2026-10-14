@@ -1,4 +1,4 @@
-# Premier-League_2026_Winner_predictor
+# Premier-League_2026/2027_Winner_predictor
 
 Predicts the probability that each club wins the Premier League, from match results and bookmaker odds, and evaluates the method with a walk-forward backtest over 17 past seasons.
 
