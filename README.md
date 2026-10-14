@@ -40,13 +40,6 @@ Snapshot after 50 of 380 matches of 2026-27 (1 October 2026):
 
 Early in the season the model is overconfident: at match 50 its favourites averaged roughly 56% while winning the title 41% of the time in the backtest. Treat these as rough estimates. Dated weekly snapshots go in `predictions/`.
 
-## Limitations
-
-- No injury, lineup, transfer or manager information.
-- Promoted clubs start from a default rating.
-- 17 test seasons is a small sample; it cannot show that a small improvement is real.
-- Surprise champions (Leicester 2015-16, Chelsea 2016-17) were missed.
-
 ## Repository structure
 
 ```
